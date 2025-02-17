@@ -13,10 +13,4 @@ public abstract class Animal {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
     }
-
-    /**
-     * private -> Apenas a classe principal consegue interagir
-     * public -> Qualquer classe tem acesso
-     * protected -> Apenas as classes que herdam
-     */
 }
