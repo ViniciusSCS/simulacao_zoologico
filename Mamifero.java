@@ -6,6 +6,7 @@ public class Mamifero extends Animal{
         this.temPelo = temPelo;
     }
 
+    // Implementando o método abstrato da classe Animal (Polimorfismo)
     @Override
     public void comer() {
         System.out.println("Comendo!!!");
