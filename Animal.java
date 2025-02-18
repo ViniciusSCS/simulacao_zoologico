@@ -29,6 +29,7 @@ public abstract class Animal {
     //Método Abstrato
     public abstract void comer();
 
+    //Método de Retorno
     public void imprimir() {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
