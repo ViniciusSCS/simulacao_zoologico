@@ -1,8 +1,14 @@
-public class Zoologico {
-    public static void main(String[] args) {
-        Animal leao = new Leao("Simba", 7, true);
+import java.util.ArrayList;
 
-        leao.comer();
-        leao.imprimir();
+public class Zoologico {
+    private ArrayList<Animal> animais;
+
+    public Zoologico() {
+        animais = new ArrayList<>();
+    }
+
+    public void adicionarAnimal(Animal animal) {
+        animais.add(animal);
+        System.out.println("Animal adicionado com sucesso");
     }
 }
