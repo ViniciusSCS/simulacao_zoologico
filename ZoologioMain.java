@@ -6,8 +6,5 @@ public class ZoologioMain {
         leao.comer();
         leao.imprimir();
         zoologico.adicionarAnimal(leao);
-        System.out.println("++++++++++++++");
-        leao.setNome(leao.getNome());
-        leao.imprimir();
     }
 }
